@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import "reset.css";
+
+body {
+    font-family: "Work Sans", sans-serif;
+    color: white;
+}
+
+.homesection {
+    background-image: url(img/unsplash_gioH4gHo0-g.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 955px;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Work Sans", sans-serif;
+}
+
+.logoname {
+    display: flex;
+    margin-right: 7vh;
+}
+
+header h1 span {
+    font-weight: 400;
+}
+
+header nav {
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+    margin-right: 40vh;
+}
+
+header nav li {
+    margin-right: 7vh;
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-right: 12px;
+}
+
+.header__imgs img {
+    margin-right: 3vh;
+    height: 30px;
+}
+
+.homesection h2 {
+    font-size: 65px;
+    font-weight: 700;
+    padding-top: 20vh;
+    padding-left: 12vh;
+}
+
+.guitars__section h2 {
+    font-size: 40px;
+    color:#505050;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 30vh;
+}
+
+.guitars__sales {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.box__shadow {
+    background: linear-gradient(to bottom, #FBFBFB, #D3D3D3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+.guitar__container {
+    padding: 5vh;
+}
+
+.guitar__container h3 {
+    color:#383838;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.guitar__container p {
+    font-size: 14px;
+    color: #767676;
+    font-weight: 500;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.guitar__nameprice {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.boxshadowbot {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.section__finds {
+    background: #ECECEC;
+}
+
+.section__finds h2 {
+    font-size: 40px;
+    color:#505050;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20vh;
+}
+
+footer {
+    background-color: #505050;
+    display: flex;
+    padding: 10vh;
+    justify-content: space-between;
+}
+
+.infos__footer {
+    padding-right: 5vh;
+}
+
+.infos__footer h4 {
+    font-weight: 600;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.infos__footer p {
+    font-weight: 400;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.infos__container {
+    display: flex;
+}
+
+.logoname__footer {
+    display: flex;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Work Sans", sans-serif;
+    padding-bottom: 3vh;    
+}
+
+.logoname__footer span {
+    font-weight: 400;
+}
+
+.logoname__footer img {
+    height: 30px;
+}
+
+.sociallogos__footer {
+    display: flex;
+    margin-left: 13vh;
+    gap: 7px;
+}
+
+.infos2__container {
+    padding-top: 5vh;
+}
+
+.footerfooter {
+    background-color: #252525;
+    height: 1vh;
+    width: 100%px;
+}
+
+.footercopy h4 {
+    background-color: #252525;
+    background-size: cover;
+    padding: 2vh;
+    padding-left: 10vh;
+    font-weight: 300;
+}

@@ -1,0 +1,30 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+body {
+  justify-content: center;
+  text-align: center;
+  background-image: url(./assets/loja.png);
+}
+
+.tenisprincipal {
+  height: 400px;
+  width: 800px;
+  cursor: pointer;
+}
+
+.vitrine img {
+  width: 200px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.quadro {
+  justify-content: center;
+  text-align: center;
+  background: white;
+  width: 30%;
+  border-radius: 50px;
+}

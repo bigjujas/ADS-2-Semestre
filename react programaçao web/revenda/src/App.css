@@ -1,0 +1,71 @@
+*{
+  user-select: none;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  height: 12vh;
+  background-color: #008cff;
+}
+
+.header__text {
+  margin-left: 5vh;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.main__page {
+  color: #008cff;
+  display: flex;
+  height: 78vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main__page label {
+  transition: all 0.3s ease;
+  margin: 5px;
+}
+
+.main__page label:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  color: #0061b1
+}
+
+.main__page img {
+  height: 500px;
+  width: 700px;
+  border: black 3px solid;
+  border-radius: 30px;
+  filter: saturate(2);
+}
+
+.checkbox__car,
+.checkbox__extras {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.footer {
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+  background-color: red;
+  width: 100%;
+  align-items: center;
+}
+
+.footer h1,
+.footer h2 {
+  margin: 2vh;
+  letter-spacing: 1px;
+}
